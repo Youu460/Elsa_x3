@@ -44,7 +44,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '11824466'))
 API_HASH = environ.get('API_HASH', '5afd3ea9d0018ed654ae39a87aee62c7')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5875966493:AAFv1xkd4NUCXatzcoAJaDirflP2ylm-Pu4')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7899174765:AAEkm47ZxN1o5Bj9zHKf1IenQfPAc8qfS-k')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -91,7 +91,7 @@ MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+wBGHGw22IfVkZTRl")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+UV3qH5NZ1PwyYjk1")
 MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐃𝐫 സാത്താൻ 𝐒𝐢𝐫 💜')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1002683673109'))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 'None'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002508511292'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CT_Arena')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
